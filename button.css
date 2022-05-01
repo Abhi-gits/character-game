@@ -1,6 +1,6 @@
 *{
     background-color: rgb(194, 87, 17);  
-    background: 
+    /*background-image: linear-gradient(to right, rgb(0, 255, 30) , rgb(221, 255, 0));*/
 }
 
 .box{
@@ -15,7 +15,6 @@
 .box button {
     color: rgb(75, 6, 236);
     background-color: rgb(139, 218, 20);
-    transition: width 2s, height 2s;
 }
 
 .box button:hover{
@@ -23,7 +22,7 @@
     font-size: 50px;
     color: red;
     position: relative;
-    transition: 2s;
+    transition: 1s;
     transform: scale(2);
     
 }
