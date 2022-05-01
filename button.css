@@ -1,6 +1,6 @@
 *{
-    /*background-color: rgb(140, 202, 204);     */
-    background: linear-gradient(to right, #2631b1, #69b495);
+    background-color: rgb(194, 87, 17);  
+    background: 
 }
 
 .box{
@@ -14,12 +14,17 @@
 
 .box button {
     color: rgb(75, 6, 236);
-    background-color: rgb(121, 241, 9);
+    background-color: rgb(139, 218, 20);
+    transition: width 2s, height 2s;
 }
 
 .box button:hover{
     background-color: green;
     font-size: 50px;
     color: red;
+    position: relative;
+    transition: 2s;
+    transform: scale(2);
+    
 }
 
